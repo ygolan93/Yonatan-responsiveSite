@@ -1,0 +1,286 @@
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: topLeft; }
+.item3 { grid-area: topRight; }
+.item4 { grid-area: bottomLeft; }
+.item5 { grid-area: bottomMid; }
+.item6 { grid-area: bottomRight;}
+.item7 { grid-area: justBottom;}
+.item8 { grid-area: footer; }
+.cover { grid-area: overlay;}
+
+
+.body
+{
+  font-family: 'Exo', sans-serif;
+  display: inline;
+
+}
+p
+{
+  font-size: 1.5vw;
+}
+img
+{
+  height: 10vw;
+  width: auto;
+  border-radius: 50%;
+  box-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.6);
+}
+
+.grid-container>.item1
+{
+  font-size: 3vw;
+  color: #ffffff;
+  word-spacing: 1vw;
+  text-shadow: 0.5vw 0.5vw 1vw rgba(0, 0, 0, 0.92);
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1vw;
+}
+.grid-container>.item1, 
+.grid-container>.item2,
+.grid-container>.item4,
+.grid-container>.item5,
+.grid-container>.item6
+{
+  font-size: 1.3vw;
+}  
+.grid-container>.item4,
+.grid-container>.item5,
+.grid-container>.item6
+{
+  margin-top: 1vw;
+}
+h1
+{
+  font-size: 3vw;
+}  
+h3,h4
+{
+  font-size: 2.3vw;
+} 
+.grid-container>.item7
+{
+  color: white;
+  background-image: url("deposit.jpg");
+  background-position: center;
+  background-position-y: 10vw;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-size: 1.2vw;
+}  
+.grid-container>.item7>p
+{
+  backdrop-filter: blur(0.7vw);
+  box-shadow: 2vw 2vw 2vw 1.5vw rgba(0, 0, 0, 0.39);
+  text-shadow: 0.7vw 0.7vw 0.7vw rgba(64, 64, 64, 0.96);
+  border-style: outset;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3vw;
+  padding: 1vw;
+}
+.grid-container>.item8
+{
+  font-size: 1vw;
+}
+
+a{
+  text-decoration: none;
+}
+
+.textInput, #Countries, .Name
+{
+  font-size: 1vw;
+  border-width: 0.2vw;
+  border-style: inset;
+}
+
+
+.grid-container>.item2, .grid-container>.item3
+{
+  color: white;
+  background-image: url("blame.jpg");
+  background-attachment: fixed;
+  margin-top: 3vw;
+  background-size: 100%;
+  font-size: 1.5vw;
+  padding:2vw;
+}
+
+.grid-container>.item2>.content1
+{
+  backdrop-filter: blur(0.7vw);
+  box-shadow: 2vw 2vw 2vw 1.5vw rgba(0, 0, 0, 0.39);
+  text-shadow: 0.7vw 0.7vw 0.7vw rgba(64, 64, 64, 0.96);
+  font-size: 1.3vw;
+  border-style: outset;
+  border-color: rgba(51, 51, 51, 0.2);
+  border-radius: 3vw;
+  padding: 2vw;
+}
+.grid-container>.item3>.content2
+{ 
+  padding: 1vw;
+  backdrop-filter: blur(0.7vw);
+  box-shadow: 2vw 2vw 2vw 1.5vw rgba(0, 0, 0, 0.39);
+  text-shadow: 0.7vw 0.7vw 0.7vw rgba(64, 64, 64, 0.96);
+  font-size: 1.3vw;
+  background-color: rgba(226, 185, 109, 0.497);
+  border-style: outset;
+  border-color: rgba(226, 185, 109, 0.2);
+  border-radius: 5vw;
+}
+
+input
+{
+  border-radius: 3vw;
+  outline: none;
+  font-size: 1vw;
+}
+
+.form
+{
+  text-align: center;
+  width: 20%;
+  border-style:none;
+}
+
+#email, #credit
+{
+  padding-left: 0.7vw;
+  width: 42%;
+}
+#phone
+{
+  padding-left: 0.7vw;
+  width: 25%;
+}
+#secure
+{
+  text-align: center;
+  width: 10%;
+}
+
+button
+{
+  color: white;
+  background-color: rgba(55, 190, 252, 0.605);
+  border-color: rgba(5, 109, 184, 0.171);
+  letter-spacing: 0.3vw;
+  padding-left: 0.7vw;
+  padding-right: 0.7vw;
+  font-family: 'Bebas Neue', cursive;
+  border-width: 0.15vw;
+  border-radius: 0.5vw;
+  border-style: outset;
+  outline: none;
+
+}
+button:hover
+{
+  background-color: rgba(128, 213, 253, 0.605);
+  border-color: rgba(84, 140, 181, 0.171);
+  border-style:groove;
+}
+button:active, #date:active
+{
+  border-width: 0.15vw;
+  background-color: rgba(88, 88, 88, 0.266);
+  border-color: rgba(55, 55, 55, 0.133);
+  border-style: inset;
+}
+#Countries
+{
+  padding-left: 0.7vw;
+  outline: none;
+  border-width: 0.15vw;
+  border-style:none;
+  border-radius: 10px;
+}
+#Countries:active
+{
+  background-color: rgba(255, 255, 255, 0.301);
+  border-style: inset;
+}
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'header header header header header header'
+        'overlay overlay overlay overlay overlay overlay'
+        'topLeft topLeft topLeft topRight topRight topRight'
+        'bottomLeft bottomLeft bottomMid bottomMid bottomRight bottomRight'
+        'justBottom justBottom justBottom justBottom justBottom justBottom'
+        'footer footer footer footer footer footer';
+
+      }
+
+      @media (max-width: 600px) {
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+            'header header header header header header'
+            'topLeft topLeft topLeft topLeft topLeft topLeft'
+            'topRight topRight topRight topRight topRight topRight'
+            'bottomLeft bottomLeft bottomLeft bottomLeft bottomLeft bottomLeft'   
+            'bottomMid bottomMid bottomMid bottomMid bottomMid bottomMid'
+            'bottomRight bottomRight bottomRight bottomRight bottomRight bottomRight'
+            'justBottom justBottom justBottom justBottom justBottom justBottom'
+            'footer footer footer footer footer footer'
+            'overlay overlay overlay overlay overlay overlay';
+
+            padding: 10px;
+          }
+             
+              .grid-container>.item2
+              {
+                margin-left: 0;
+                box-shadow: none;
+              }
+              .grid-container>.item2>.content1,.grid-container>.item3>.content2
+              {
+                margin-left: 25%;
+                width: 50%;
+              }
+              .grid-container>.item3
+              {
+                margin-right: 0;
+                box-shadow: none;
+                margin-top: -2vw;
+              } 
+              
+              .grid-container>.item1, 
+              .grid-container>.item2,
+              .grid-container>.item4,
+              .grid-container>.item5,
+              .grid-container>.item6
+              {
+                font-size: 3vw;
+              } 
+              .grid-container>.item7
+              {
+                background-position-y: 0;
+              }
+              p
+              {
+                font-size: 2vw;
+              }
+              h1
+              {
+                font-size: 4vw;
+              }  
+              h3,h4
+              {
+                font-size: 3vw;
+              } 
+            
+      }
+
+
+  .grid-container > div {
+    /* border-style: dashed; */
+    text-align: center;
+    padding: 40px;
+  }
