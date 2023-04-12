@@ -18,8 +18,20 @@
     <body>
         <div class="grid-container">
             <div class="item1">
-                <span class="headline" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Full-Stake Inc.</span>
+                <div class="headline">
+                    <th>
+                        <td><img src="Logo.png" id="logo"></td>
+                        <td class="cellLink"><a href="#home">Home</a></td> |
+                        <td class="cellLink"><a href="#news">News</a></td> |  
+                        <td class="cellLink"><a href="#forum">Forum</a></td> |  
+                        <td class="cellLink"><a href="#vision">Vision</a></td>  |
+                        <td class="cellLink"><a href="#customers">Customers Support</a></td> |
+                        <td class="cellLink"><a href="#branches">World Branches</a></td>  
+                    </th>
+                </div>
             </div>
+            <br/>
+            <br/>
             <div class="item2">
                 <div class="content1"> 
                 <h1>Tired of earning money?</h1><h4> We got your back!</h4>
@@ -34,7 +46,7 @@
                             <p id="demo" style="font-size: 3vw; font-weight: bold;"></p>
                             <script>
                                 // Set the date we're counting down to
-                                var countDownDate = new Date("April 22, 2023 15:37:25").getTime();
+                                var countDownDate = new Date("October 22, 2023 00:00:00").getTime();
                                 
                                 // Update the count down every 1 second
                                 var x = setInterval(function() {
@@ -62,15 +74,15 @@
                                   }
                                 }, 1000);
                                 </script>
-                            <p> Leave your details below for a call back!<br/> Yup. your credit card too. </p>
+                            <p> Leave your details below for a call back!<br/> Yup. Your credit card too. </p>
                             <br />
-                            <input type="text" placeholder="First Name" class="form" id="name1" autocomplete="name"> <input type="text" id="name2" placeholder="Last Name" class="form" autocomplete="family-name">
-                            <br />
-                            <br />
-                            <input type="text" placeholder="Email" class="form" id="email" autocomplete="email">
+                            <span class="material-symbols-outlined" id="personIcon">person</span><input type="text" placeholder="First Name" class="form" id="name1" autocomplete="name"> <input type="text" id="name2" placeholder="Last Name" class="form" autocomplete="family-name">
                             <br />
                             <br />
-                            <input type="text" placeholder="Credit No." class="form" id="credit" maxlength="19" autocomplete="cc-number">
+                            <span class="material-symbols-outlined" id="mailIcon">mail</span> <input type="text" placeholder="Email" class="form" id="email" autocomplete="email">
+                            <br />
+                            <br />
+                            <span class="material-symbols-outlined" id="creditIcon">credit_card</span> <input type="text" placeholder="Credit No." class="form" id="credit" maxlength="19" autocomplete="cc-number">
                             <script>
                                 var crdt = document.querySelector('#credit');
                               
@@ -82,10 +94,10 @@
                             </script>
                             <br />
                             <br />
-                            <input type="date" placeholder="Date" class="form" id="date"> <input type="text" maxlength="3" id="secure" placeholder="Code" class="form">
+                            <span class="material-symbols-outlined" id="dateIcon">calendar_month</span> <input type="date" placeholder="Date" class="form" id="date"> <input type="text" maxlength="3" id="secure" placeholder="Code" class="form">
                             <br />
                             <br />
-                            <label for="Countries"></label>
+                            <span class="material-symbols-outlined" id="phoneIcon">smartphone</span><label for="Countries"></label>
                             <select id="Countries" name=" Countries">
                                 <option value="Israel">(IL) +972</option>
                                 <option value="USA">(US) +1</option>
@@ -109,14 +121,28 @@
                             <br /> 
                         </div>
                 </div>
-            <div class="item4"><i class="fa-solid fa-square-check fa-2xl" id="advantage"></i><br/><br/><h4>Our Main Advantage</h4><p>Exeptional Jahnoon Microwaving skills along with Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione temporibus sed numquam iste recusandae provident fugit, illum doloremque! Fugiat dolorem odio ex impedit neque necessitatibus nobis nemo dolorum nisi facilis!</p></div>
-            <div class="item5"><i class="fa-solid fa-gift fa-2xl" id="offer"></i><br /><br /><h4>Special Offer!</h4><p>For a 999.99$ You may secure your spot at the next phishing convention, and learn to create your very own passive income! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro consectetur tempore mollitia quas. Tempora ab, asperiores harum officiis illum commodi modi autem voluptatum ea eaque adipisci corporis ullam libero ad.</p></div>
-            <div class="item6"><i class="fa-solid fa-address-card fa-2xl" id="about"></i><br /><br /><h4>About Us</h4><p> Our Mission is to grow our <span style="text-decoration: line-through">costumers'</span>  pockets deep as much as possible. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum necessitatibus officiis in fugiat reiciendis quibusdam ipsa, autem saepe eius quam ratione esse aut, veritatis voluptatibus accusamus velit ut culpa ducimus?</p></div>
+            <div class="item4"><script src="https://cdn.lordicon.com/ritcuqlt.js"></script><lord-icon
+                    src="https://cdn.lordicon.com/egiwmiit.json"
+                    trigger="hover"
+                    style="width:50px;height:50px">
+                </lord-icon><br/><h4>Our Main Advantage</h4><p>Exeptional Jahnoon Microwaving skills along with Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione temporibus sed numquam iste recusandae provident fugit, illum doloremque! Fugiat dolorem odio ex impedit neque necessitatibus nobis nemo dolorum nisi facilis!</p></div>
+            <div class="item5"><script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/tyvtvbcy.json"
+                    trigger="hover"
+                    style="width:50px;height:50px">
+                </lord-icon><br /><br /><h4>Special Offer!</h4><p>For a 999.99$ You may secure your spot at the next phishing convention, and learn to create your very own passive income! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro consectetur tempore mollitia quas. Tempora ab, asperiores harum officiis illum commodi modi autem voluptatum ea eaque adipisci corporis ullam libero ad.</p></div>
+            <div class="item6"><script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/isugonwi.json"
+                    trigger="hover"
+                    style="width:50px;height:50px">
+                </lord-icon><br /><br/><h4>About Us</h4><p> Our Mission is to grow our <span style="text-decoration: line-through">costumers'</span>  pockets deep as much as possible. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum necessitatibus officiis in fugiat reiciendis quibusdam ipsa, autem saepe eius quam ratione esse aut, veritatis voluptatibus accusamus velit ut culpa ducimus?</p></div>
             <div class="item7">
-              <img src="missPiggy.jpg"><br/><br/>
+              <img src="missPiggy.jpg" class="profile"><br/><br/>
               <div class="content3">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste ut provident deleniti praesentium vero veniam consectetur a. Officia iusto exercitationem ratione esse error illo accusantium ab culpa, quis perspiciatis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae ex laborum, dicta cumque quae eveniet beatae totam quibusdam pariatur numquam deserunt alias, dolore
-              </p><hr> <p>Saepe fugit eaque minima eum consequuntur</p>
+              </p><hr> <p>Lorem Ipsum, CEO of stuff</p>
             </div>
             </div>
             <div class="item8"><span class="rights"><i class="fa-sharp fa-regular fa-copyright"></i>  All Rights Reserved to Yonatan Golan</span>  | <a href="">Contact Us</a> | <a href="">Legal Agreement</a> | <a href="">Privacy Policy</a></div>
